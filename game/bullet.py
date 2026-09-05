@@ -3,16 +3,17 @@ from config import WIDTH
 
 class Bullet:
     def __init__(self, x, y, speed=12, image="bullets/laser_player"):
-        pass
+        self.speed = speed
+        self.actor = Actor(image, (x, y))
 
     def move(self):
-        pass
+        self.actor.x += self.speed
 
     def is_off_screen(self):
-        pass
+        return self.actor.x > WIDTH + 20
 
     def draw(self):
-        pass
+        self.actor.draw()
 
 class EnemyBullet(Bullet):
     def __init__(self, x, y, speed=8, image="bullets/laser_enemy"):
