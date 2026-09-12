@@ -1,7 +1,7 @@
 # Configuración general del juego
 WIDTH = 800
 HEIGHT = 600
-TITLE = "PONLE UN NOMBRE A TU JUEGO"
+TITLE = "nyan cat vs super alien"
 
 # Estilos de la Interfaz (Colores)
 COLOR_PRIMARY = "cyan"

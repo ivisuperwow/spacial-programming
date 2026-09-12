@@ -31,7 +31,7 @@ class UIManager:
         center_y = HEIGHT // 2
         
         screen.draw.text(TITLE, center=(center_x, center_y - 100), fontsize=FONT_SIZE_TITLE, color=COLOR_PRIMARY, owidth=2.5, ocolor=COLOR_BLACK, fontname=font)
-        screen.draw.text("NOMBRE APELLIDO", center=(center_x, center_y - 20), fontsize=FONT_SIZE_SUBTITLE, color=COLOR_WHITE, owidth=2.0, ocolor=COLOR_BLACK, fontname=font)
+        screen.draw.text("ivonne lillo", center=(center_x, center_y - 20), fontsize=FONT_SIZE_SUBTITLE, color=COLOR_WHITE, owidth=2.0, ocolor=COLOR_BLACK, fontname=font)
         screen.draw.text("START GAME", center=(center_x, center_y + 80), fontsize=30, color=COLOR_SUCCESS, owidth=1.5, ocolor=COLOR_BLACK, fontname=font)
 
     @staticmethod
